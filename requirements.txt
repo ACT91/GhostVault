@@ -2,3 +2,4 @@ pillow>=9.0.0
 numpy>=1.21.0
 cryptography>=3.4.0
 click>=8.0.0
+pydub>=0.25.0

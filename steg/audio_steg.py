@@ -6,7 +6,7 @@ def hide_in_audio(audio_path, message, output_path, password=None):
     """Hide a message in an audio file using LSB steganography."""
     with wave.open(audio_path, 'rb') as audio:
         frames = audio.readframes(-1)
-        sound_data = np.frombuffer(frames, dtype=np.int16)
+        sound_data = np.frombuffer(frames, dtype=np.int16).copy()
         params = audio.getparams()
     
     # Encrypt message if password provided
