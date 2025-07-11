@@ -127,4 +127,4 @@ GitHub: [https://github.com/ACT91](https://github.com/ACT91)
 
 This tool is for educational and legitimate purposes only. Users are responsible for compliance with applicable laws and regulations.
 
-Created with ❤️ by ACT91
+Created with 🐍 by ACT91
